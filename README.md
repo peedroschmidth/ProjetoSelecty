@@ -12,3 +12,6 @@ php artisan serve (criar o servidor)
 php migration (criar as tabelas no banco)
 
 abrir o projeto no https://localhost
+
+para rodar os testes
+php artisan dusk --browse
