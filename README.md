@@ -11,3 +11,4 @@ php artisan serve (criar o servidor)
 
 php migration (criar as tabelas no banco)
 
+abrir o projeto no https://localhost

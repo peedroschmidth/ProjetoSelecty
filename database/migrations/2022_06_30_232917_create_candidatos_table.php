@@ -16,8 +16,13 @@ class CreateCandidatosTable extends Migration
         Schema::create('candidatos', function (Blueprint $table) {
             $table->id();
             $table->string('nome');
-            $table->string('email');
-            $table->string('telefone');
+            $table->string('email')->nullable();
+            $table->string('telefone')->nullable();
+            $table->string('usuario');
+            $table->string('experiencias')->nullable();
+            $table->string('formacoes')->nullable();
+            $table->string('senha');
+            $table->string('confirmacaoSenha');
             $table->timestamps();
         });
     }
